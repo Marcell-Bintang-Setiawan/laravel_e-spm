@@ -3,7 +3,7 @@
 <script src="https://cdn.tiny.cloud/1/ug6qiebx3dmdfulhhqcsw44sfeie1dj1oasnfd55ffzxd0ex/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 @endsection
 @section('content')
-    <section class="card" style="background: #29b6f6;">
+    <section class="card" style="background: #ffffff;">
         <div class="card-header">
             <h3 class="card-title text-dark">Edit pertanyaan anda</h3>
         </div>
@@ -29,8 +29,8 @@
                                 <button class="btn btn-primary btn-sm">{{$tag->tag_name ? $tag->tag_name:'No tags' }}</button>
                                 @endforeach
                 </div>
-                    <a href="/forum/show/{{$pertanyaan->id}}" type="submit" class="btn btn-light mt-3">kembali</a>
-                <button type="submit" class="btn btn-light mt-3">Submit</button>
+                    <a href="/forum/show/{{$pertanyaan->id}}" type="submit" class="btn btn-danger mt-3">kembali</a>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
             </div>
             <!-- /.card-body -->
         </form>
