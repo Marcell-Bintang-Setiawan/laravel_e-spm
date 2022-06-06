@@ -55,7 +55,7 @@
                         </form>
                     </div>
                     <div class="signup-image">
-                        <figure><img src="{{asset('Admin/images/signup-image.jpg')}}" alt="sing up image"></figure>
+                        <figure><img src="{{asset('Admin/images/login-images_2.jpg')}}" alt="sing up image"></figure>
                         <a href="/" class="signup-image-link">Saya Sudah Punya Akun</a>
                     </div>
                 </div>

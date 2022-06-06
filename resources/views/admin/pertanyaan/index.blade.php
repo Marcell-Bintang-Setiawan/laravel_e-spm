@@ -6,11 +6,10 @@
     <script src="https://cdn.ckeditor.com/4.15.1/standard/ckeditor.js"></script>
 @endsection
 @section('content')
-    <div class="card">
+    <div class="card"></div>
                 <div class="card-header">
-                    {{-- <button class="btn  btn-primary"  data-toggle="modal" data-target="#exampleModal">Tambah data [+]</button> --}}
-                    <a href="/exportPertanyaan" class="btn btn-danger btn-sm ml-5">Export PDF</a>
-                    <a href="/ExcelPertanyaan" class="btn btn-success mr-2 btn-sm">Export Excel</a>
+                    <a href="/exportPertanyaan" class="btn btn-danger">Export PDF</a>
+                    <a href="/ExcelPertanyaan" class="btn btn-success">Export Excel</a>
                     <div class="float-right">
                     @if (session('sukses'))
                     <div class="alert alert-success" style="margin-top: -8%">

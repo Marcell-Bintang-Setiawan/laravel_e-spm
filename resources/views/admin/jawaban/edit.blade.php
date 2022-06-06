@@ -3,7 +3,7 @@
     <h1>DATA TABLE JAWABAN</h1>
 @endsection
 @section('header')
-    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+<script src="https://cdn.tiny.cloud/1/ug6qiebx3dmdfulhhqcsw44sfeie1dj1oasnfd55ffzxd0ex/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 @endsection
 @section('content')
     <div class="card">

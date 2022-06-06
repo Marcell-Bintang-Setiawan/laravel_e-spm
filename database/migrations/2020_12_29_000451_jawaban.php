@@ -15,7 +15,7 @@ class Jawaban extends Migration
     {
         Schema::create('jawaban', function (Blueprint $table) {
             $table->id();
-            $table->string('isi');
+            $table->longText('isi');
             $table->timestamps();
             $table->unsignedBigInteger('pertanyaan_id');
             $table->unsignedBigInteger('user_id');

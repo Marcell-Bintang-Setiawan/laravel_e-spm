@@ -1,8 +1,8 @@
-<nav class="main-header navbar navbar-expand navbar-white navbar-light fixed-top" style="background: #29b6f6;">
+<nav class="main-header navbar navbar-expand navbar-white navbar-light fixed-top" style="background: #004946;">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="/" class="nav-link font-weight-bold text-dark">Home</a>
+        <a href="/" class="nav-link font-weight-bold text-light">Home</a>
       </li>
     </ul>
     <!-- Right navbar links -->

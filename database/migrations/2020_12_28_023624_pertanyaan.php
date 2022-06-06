@@ -16,7 +16,7 @@ class Pertanyaan extends Migration
         Schema::create('pertanyaan', function (Blueprint $table) {
             $table->id();
             $table->string('judul');
-            $table->string('isi');
+            $table->longText('isi');
             $table->timestamps();
             $table->integer('jawaban_tepat_id')->nullable();
             $table->bigInteger('user_id')->unsigned();

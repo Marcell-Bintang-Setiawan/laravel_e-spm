@@ -8,6 +8,7 @@ use App\Http\Controllers\jawabanController;
 use App\Http\Controllers\exportController;
 use App\Http\Controllers\tampilController;
 use App\Http\Controllers\ForumController;
+use App\Http\Controllers\pengumumanController;
 use GuzzleHttp\Middleware;
 use Illuminate\Support\Facades\Auth;
 /*
@@ -51,6 +52,9 @@ Route::middleware(['web','auth', 'role:admin'])->group(function () {
     Route::resource('profile', profileController::class);
     Route::delete('/hapus/{hapus}', [jawabanController::class, 'Destroy']);
     Route::resource('jawaban', jawabanController::class);
+
+    // table pengumuman
+    Route::get('/pengumuman', [pengumumanController::class, 'index']);
 
     // Export pdf pertanyaan & jawban
     Route::get('/exportPertanyaan', [exportController::class, 'PDFPertanyaan']);

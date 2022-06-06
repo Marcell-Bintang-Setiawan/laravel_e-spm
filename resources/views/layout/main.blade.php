@@ -29,14 +29,14 @@
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-light-blue elevation-4" style="background: #29b6f6">
+    <aside class="main-sidebar sidebar-light-blue elevation-4" style="background: #004946">
         <!-- Brand Logo -->
         <a href="../../index3.html" class="brand-link">
         <img src="../../dist/img/AdminLTELogo.png"
             alt="AdminLTE Logo"
             class="brand-image img-circle elevation-3"
             style="opacity: .8">
-        <span class="brand-text font-weight-light">Admin</span>
+        <span class="brand-text font-weight-light text-white">Administrator</span>
         </a>
         <div class="sidebar">
         <!-- Sidebar -->
@@ -102,6 +102,6 @@
     <script src="{{ asset('/dist/js/adminlte.min.js') }}"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="{{ asset('/dist/js/demo.js') }}"></script>
-    @yield('footer');
+    @yield('footer')
     </body>
     </html>

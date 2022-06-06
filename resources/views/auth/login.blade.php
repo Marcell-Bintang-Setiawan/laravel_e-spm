@@ -4,12 +4,12 @@
             <div class="container">
                 <div class="signin-content">
                     <div class="signin-image">
-                        <figure><img src="{{asset('Admin/images/signin-image.jpg')}}" alt="sing up image"></figure>
+                        <figure><img src="{{asset('Admin/images/login-images_2.jpg')}}" alt="sing up image"></figure>
                         <a href="/register" class="signup-image-link">Buat Akun</a>
                     </div>
 
                     <div class="signin-form">
-                        <h2 class="form-title">Login </h2>
+                        <h2 class="form-title">Login</h2>
                         <h3 class="form-title">Elektronik Sistem Pengaduan Mahasiswa</h3>
 
                         <form method="POST" action="/postlogin" class="register-form" id="login-form">

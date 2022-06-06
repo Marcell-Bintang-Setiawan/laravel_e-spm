@@ -7,7 +7,7 @@
             " class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-            <a href="#" class="d-block">{{Auth()->user()->profile->nama_lengkap}}</a>
+            <a href="#" class="d-block text-white">{{Auth()->user()->profile->nama_lengkap}}</a>
             </div>
         </div>
             <!-- Add icons to the links using the .nav-icon class
@@ -53,26 +53,32 @@
 
         <li class="nav-item">
                     <a href="{{url('/profile')}}" class="nav-link">
-                    <i class="fa fa-user nav-icon"></i>
-                    <p>Data User</p>
+                    <i class="fa fa-user nav-icon text-white"></i>
+                    <p class="text-white">Data User</p>
                 </a>
         </li>
         <li class="nav-item">
                     <a href="{{url('/Pertanyaan')}}" class="nav-link">
-                    <i class="fa fa-table nav-icon"></i>
-                    <p>Data Pertanyaan</p>
+                    <i class="fa fa-table nav-icon text-white"></i>
+                    <p class="text-white">Data Pertanyaan</p>
                 </a>
         </li>
         <li class="nav-item">
                     <a href="{{url('/jawaban')}}" class="nav-link">
-                    <i class="fa fa-table nav-icon"></i>
-                    <p>Data Jawaban</p>
+                    <i class="fa fa-table nav-icon text-white"></i>
+                    <p class="text-white">Data Jawaban</p>
+                </a>
+        </li>
+        <li class="nav-item">
+                    <a href="{{url('/pengumuman')}}" class="nav-link">
+                    <i class="fa fa-table nav-icon text-white"></i>
+                    <p class="text-white">Pengumuman</p>
                 </a>
         </li>
         <li class="nav-item">
                     <a href="{{url('/')}}" class="nav-link">
-                    <i class="fa fa-arrow-left nav-icon"></i>
-                    <p>kembali ke forum</p>
+                    <i class="fa fa-arrow-left nav-icon text-white"></i>
+                    <p class="text-white">kembali ke forum</p>
                 </a>
         </li>
 </nav>

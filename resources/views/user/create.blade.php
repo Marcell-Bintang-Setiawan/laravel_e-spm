@@ -3,7 +3,7 @@
 <script src="https://cdn.tiny.cloud/1/ug6qiebx3dmdfulhhqcsw44sfeie1dj1oasnfd55ffzxd0ex/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 @endsection
 @section('content')
-    <section class="card" style="background: #29b6f6;">
+    <section class="card" style="background: #ffffff;">
         <div class="card-header">
             <h3 class="card-title text-dark">Masukan pertanyaan anda</h3>
         </div>
@@ -27,8 +27,8 @@
                     <label for="tags">Hashtag</label>
                     <input type="text" class="form-control" id="tags" name="tags" placeholder="contoh : satu,sdua,tiga">
                 </div>
-                <a href="/" type="submit" class="btn btn-light mt-3">kembali</a>
-                <button type="submit" class="btn btn-light mt-3">Submit</button>
+                <a href="/" type="submit" class="btn btn-danger mt-3">kembali</a>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
             </div>
             <!-- /.card-body -->
         </form>

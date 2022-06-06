@@ -1,8 +1,8 @@
-    <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background: #29b6f6; background: ">
+    <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background: #004946;">
         <!-- Brand Logo -->
         <div class="container">
         <a href="localhost:8000" class="brand-link">
-        <span class="brand-text font-weight-bold text-dark">E - SPM</span>
+        <span class="brand-text font-weight-bold text-light">E - SPM</span>
         </a>
         </div>
 
@@ -18,10 +18,10 @@
                         <img src="{{ Auth::user()->profile->getAvatar() }}" class="img-size-50 mr-1 img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="media-body pl-1">
-                        <h3 class="dropdown-item-title font-weight-bold text-dark">
+                        <h3 class="dropdown-item-title font-weight-bold text-light">
                         @ {{ Auth::user()->name }}
                         </h3>
-                        <p class="text-sm font-weight-bold text-dark">{{ Auth::user()->profile->nama_lengkap }} </p>
+                        <p class="text-sm font-weight-bold text-light">{{ Auth::user()->profile->nama_lengkap }} </p>
                     </div>
                     <span class="ml-2 font-weight-bold text-dark"><i class="fas fa-angle-down"></i></span>
                 </a>
@@ -34,14 +34,14 @@
                     </li> --}}
                     @if (Auth::user()->role==='admin')
                     <li class="nav-item">
-                        <a href="/profile" class="nav-link font-weight-bold text-dark" onclick="">
+                        <a href="/profile" class="nav-link font-weight-bold text-light" onclick="">
                             <i class="far fa-circle nav-icon"></i>
                             Administrator
                         </a>
                     </li>
                     @endif
                     <li class="nav-item">
-                        <a href="/logout" class="nav-link font-weight-bold text-dark" onclick="">
+                        <a href="/logout" class="nav-link font-weight-bold text-light" onclick="">
                             <i class="far fa-circle nav-icon"></i>
                             Log out
                         </a>

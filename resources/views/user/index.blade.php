@@ -9,7 +9,7 @@
 
             <div class="card-header">
                 <p style="text-align: left; font-size:30px; margin-top:25px">Elektronik Sistem Pengaduan Mahasiswa<br>
-                    <a href="/forum/create" type="submit" class="btn btn-primary text-white btn-md text-dark"
+                    <a href="/forum/create" type="submit" class="btn btn-success text-white"
                         style="border-radius:50px; margin-bottom:25px">Yuk Tanya</a>
                 </p>
                 <div class="alert alert-warning" role="alert">
