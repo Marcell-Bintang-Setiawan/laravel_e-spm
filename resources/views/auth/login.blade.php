@@ -1,4 +1,4 @@
-@extends('layout.template.auth')
+@extends('layout.template.auth') 
 @section('content')
 <section class="sign-in" style="margin-top: 8%">
             <div class="container">
